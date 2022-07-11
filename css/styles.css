@@ -16,7 +16,6 @@
 
 body {
   font-family: var(--primary-font);
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -35,7 +34,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
 
   color: var(--accent-color);
 }
@@ -45,7 +43,6 @@ body {
 /* NAV */
 .menu-item {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 
@@ -66,7 +63,6 @@ body {
 .contact-phone {
   text-decoration: none;
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 
@@ -115,14 +111,8 @@ body {
   cursor: pointer;
 }
 
-.hidden-name {
-}
-
 .benefits-name {
-  font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 
   color: var(--secondary-color);
@@ -133,13 +123,11 @@ body {
   background: #f5f4fa;
 }
 .section-name {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
-  letter-spacing: 0.03em;
   text-align: center;
 
-  color: #212121;
+  color: var(--secondary-color);
 }
 
 .team-card {
@@ -150,15 +138,12 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
 
   color: var(--secondary-color);
 }
 .card-info {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
 }
 
 /* FOOTER */
@@ -168,16 +153,25 @@ body {
 }
 
 .address-map,
-.contack-mail,
-.contack-phone {
+.contact-mail,
+.contact-phone {
   font-style: normal;
 
   color: var(--primery-white-color);
 }
 
-.contack-mail,
-.contack-phone {
+.contact-mail,
+.contact-phone {
   color: rgba(255, 255, 255, 0.6);
+}
+
+.contact-mail:hover,
+.contact-mail:focus {
+  color: var(--accent-color);
+}
+.contact-phone:hover,
+.contact-phone:focus {
+  color: var(--accent-color);
 }
 .studio-footer {
   color: var(--primery-white-color);
@@ -196,7 +190,6 @@ body {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
-  letter-spacing: 0.03em;
 
   color: var(--secondary-color);
   border-color: transparent;
@@ -211,8 +204,12 @@ body {
   color: var(--primery-white-color);
 }
 
+.filter-btn.current {
+  background-color: var(--accent-color);
+  color: var(--primery-white-color);
+}
+
 .project-name {
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -220,28 +217,6 @@ body {
   color: var(--secondary-color);
 }
 .project-info {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
-  letter-spacing: 0.03em;
 }
-
-/* text-decoration: none | underline | line-through | overline */
-/* text-transform: none | uppercase | lowercase | capitalize */
-/* text-align: left | right | center | justify */
-/* text-indent: значение | проценты | inherit */
-/* line-height: множитель | значение | проценты | normal | inherit */
-/* letter-spacing: значение | normal | inherit */
-/* word-spacing: значение | normal | inherit */
-/* text-shadow: <смещение по x>, <смещение по y>, <радиус размытия>, <цвет> */
-/* white-space: normal | nowrap | pre | pre-wrap */
-/* font-weight: 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900 */
-/* font-style: normal | italic | oblique | initial | inherit */
-/* элемент::first-letter {} */
-/* text-ident: 40px отступ в абзаце 1й строки */
-
-/* font-family: 'Raleway', sans-serif;
-font-family: 'Roboto', sans-serif; */
-
-/* В стилях не повторяются значения свойств, которые заданы браузером по умолчнаию. Например, ссылкам не нужно указывать cursor: pointer, а абзацам font-style: normal или font-weight: 400. */
-/* cursor: pointer; */
