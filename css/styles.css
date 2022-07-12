@@ -112,6 +112,7 @@ body {
 }
 
 .benefits-name {
+  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 
@@ -153,24 +154,24 @@ body {
 }
 
 .address-map,
-.footer-mail,
-.footer-phone {
+.address .contact-mail,
+.address .contact-phone {
   font-style: normal;
 
   color: var(--primery-white-color);
 }
 
-.footer-mail,
-.footer-phone {
+.address .contact-mail,
+.address .contact-phone {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-mail:hover,
-.footer-mail:focus {
+.address .contact-mail:hover,
+.address .contact-mail:focus {
   color: var(--accent-color);
 }
-.footer-phone:hover,
-.footer-phone:focus {
+.address .contact-phone:hover,
+.address .contact-phone:focus {
   color: var(--accent-color);
 }
 .studio-footer {
