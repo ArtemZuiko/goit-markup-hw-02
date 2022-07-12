@@ -153,24 +153,24 @@ body {
 }
 
 .address-map,
-.contact-mail,
-.contact-phone {
+.footer-mail,
+.footer-phone {
   font-style: normal;
 
   color: var(--primery-white-color);
 }
 
-.contact-mail,
-.contact-phone {
+.footer-mail,
+.footer-phone {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.contact-mail:hover,
-.contact-mail:focus {
+.footer-mail:hover,
+.footer-mail:focus {
   color: var(--accent-color);
 }
-.contact-phone:hover,
-.contact-phone:focus {
+.footer-phone:hover,
+.footer-phone:focus {
   color: var(--accent-color);
 }
 .studio-footer {
